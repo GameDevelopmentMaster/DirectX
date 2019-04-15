@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="해더파일">
+      <UniqueIdentifier>{7319da4a-beef-478e-afa5-cc373b753c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스파일">
+      <UniqueIdentifier>{e8e9fdce-c46d-468f-bde2-a28014684bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{997cf669-f8cf-4049-a3a8-70035c642862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Direct-X_Test1.cpp">
+      <Filter>소스파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Animation.cpp">
+      <Filter>해더파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Direct-X_Test1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="Animation.h">
+      <Filter>해더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Block.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

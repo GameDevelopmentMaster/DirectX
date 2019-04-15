@@ -1,0 +1,3 @@
+﻿  Direct-X_Test1.cpp
+Animation.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  Direct-X_Test1_2010.vcxproj -> C:\Users\ky111\바탕화면\프로젝트\연습\DirectX\Direct-X_Test1\Debug\Direct-X_Test1.exe
